@@ -1,0 +1,2 @@
+# felniqsStash
+Some Django exercices
