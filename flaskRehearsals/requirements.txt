@@ -1,5 +1,5 @@
 Werkzeug
-Jinja
+Jinja2
 MarkupSafe
 ItsDangerous
 Click
