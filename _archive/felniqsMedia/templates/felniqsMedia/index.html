@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
     <meta charset="utf-8">
@@ -9,6 +10,7 @@
 <ul>
     {% for AvailableImages in all_images_list %}
     <li><a href="/felniqsMedia/{{ AvailableImages.id }}/">{{ AvailableImages.image_path }}</a></li>
+    <img src={AvailableImages.image_path}>
     {% endfor %}
 </ul>
 {% else %}

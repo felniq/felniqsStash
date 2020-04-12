@@ -117,5 +117,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+BASE_DIR = 'E:\\Google Kuvat\\'
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR
+]
