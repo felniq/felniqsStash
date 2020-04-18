@@ -1,9 +1,0 @@
-Werkzeug
-Jinja2
-MarkupSafe
-ItsDangerous
-Click
-Blinker
-SimpleJSON
-python-dotenv
-Watchdog
